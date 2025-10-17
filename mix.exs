@@ -23,7 +23,8 @@ defmodule LivekitSdkEx.MixProject do
     [
       {:joken, "~> 2.6"},
       {:jason, "~> 1.4"},
-      {:inflex, "~> 2.1"}
+      {:inflex, "~> 2.1"},
+      {:livekit_protocol_ex, git: "git@github.com:phanmn/livekit-protocol-ex.git", branch: "main"},
     ]
   end
 end
