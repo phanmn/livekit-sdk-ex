@@ -25,6 +25,7 @@ defmodule LivekitSdkEx.MixProject do
       {:jason, "~> 1.4"},
       {:recase, "~> 0.9.0"},
       {:livekit_protocol_ex, git: "git@github.com:phanmn/livekit-protocol-ex.git", branch: "main"},
+      {:exconstructor, "~> 1.2"}
     ]
   end
 end
